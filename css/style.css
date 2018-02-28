@@ -1,0 +1,97 @@
+body{
+	background:url("f.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+.menu ul li{
+padding:10px;	
+
+}
+.menu ul > li:hover{
+ background-color:#006400
+}
+.menu ul{
+position:relative;
+margin:0;
+padding:0;
+background-color:#0000CD;/*кол¤р головного заднього плана тексту*/
+}
+ .menu ul ul{
+	display: none;
+	position:absolute;
+	background-color:#f63;
+} 
+.menu  li:hover ul{
+	display:block;
+}
+.menu li:hover li{
+	display:block;
+}
+.menu ul li, .menu ul{
+display:inline-block;/*	в р¤дочок меню*/
+}
+.menu ul a{
+   color:#FFFF00; 
+     text-decoration:none; 
+}
+.menu{
+	width:auto;
+}
+ .text{
+	color:#004401; 
+	width:700px;
+	position:relative;
+	background: rgba(255, 255, 0, 0.4);
+}
+.h{
+	color:#D50000;
+}
+.h1{
+	color:#D50000;
+}
+.H3{
+	color:#D50000
+}
+ .h3 {
+	 width:700px;
+	position:relative;
+	background: rgba(255, 255, 0, 0.4);
+	color:#004401;
+ }
+ .img{
+	 position:auto;
+ }
+  .sk{
+	 position:auto;
+ }
+  .guta{
+	 position:auto;
+	 color:#FFFF00;
+ }
+.text1{
+	border-color: #008a77; /* Цвет границы */
+	border-style: outset; /* Стиль границы */
+    padding: 3px;
+	border-width:5px;
+	color:#0D2156;
+	background-color:#FFFF00;
+}
+ #footer{
+	font-size: 20px; 
+ }
+.cl{
+	position:absolute;
+	background: rgba(255, 255, 0, 0.4);
+	color:#004401;
+	width:75px;
+	left:1200px;
+}
+.ruf ul li{
+	display:inline-block;
+	position:auto;
+}
+#textStyle {
+	font-size: 20px;
+}
+#clock {
+	font-size: 20px;
+}
