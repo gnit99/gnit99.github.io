@@ -2,7 +2,7 @@ var clock = document.getElementById("clock");
 
 function hexoClock() {
 	var time = new Date();
-	var h =(time.getHours() % 12).toString();
+	var h =(time.getHours() % 24).toString();
 	var m =time.getMinutes().toString();
 	var s =time.getSeconds().toString();
 	
@@ -18,7 +18,7 @@ function hexoClock() {
 	var clockString = h + ":" + m +":"+ s;
 	 
 	clock.textContent = clockString;
-	document = clockString
+	document = clockString;
 }
 
 setInterval(hexoClock, 1000);

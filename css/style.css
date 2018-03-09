@@ -33,65 +33,50 @@ display:inline-block;/*	в р¤дочок меню*/
    color:#FFFF00; 
      text-decoration:none; 
 }
-.menu{
-	width:auto;
+#telo {
+	width: 750px;
+	background-color: rgba(255, 255, 0, 0.4) ;
+	
 }
- .text{
-	color:#004401; 
-	width:700px;
-	position:relative;
-	background: rgba(255, 255, 0, 0.4);
+.h1 {
+	color: #15ff00;
+	background-color:#000;
+	display:inline-block;
+	padding:10px;
 }
 .h{
 	color:#D50000;
 }
-.h1{
-	color:#D50000;
+.text {
+	width: 700px;
+	color: #110744;
 }
-.H3{
-	color:#D50000
-}
- .h3 {
-	 width:700px;
-	position:relative;
-	background: rgba(255, 255, 0, 0.4);
-	color:#004401;
- }
- .img{
-	 position:auto;
- }
-  .sk{
-	 position:auto;
- }
-  .guta{
-	 position:auto;
-	 color:#FFFF00;
- }
-.text1{
+
+#footer{
+	font-size: 20px; 
 	border-color: #008a77; /* Цвет границы */
 	border-style: outset; /* Стиль границы */
     padding: 3px;
 	border-width:5px;
 	color:#0D2156;
 	background-color:#FFFF00;
-}
- #footer{
-	font-size: 20px; 
  }
-.cl{
-	position:absolute;
-	background: rgba(255, 255, 0, 0.4);
-	color:#004401;
-	width:75px;
-	left:1200px;
-}
-.ruf ul li{
-	display:inline-block;
-	position:auto;
-}
 #textStyle {
 	font-size: 20px;
 }
 #clock {
-	font-size: 20px;
+	font-size: 40px;
+	margin:10;
+	padding:0;
+	color:yellow;
+}	
+.menu {
+	font-size: 25px;
+	margin: 10px;
+}
+#fix{
+	background:url("a.png") round;
+	margin:0;
+	padding:0;
+	
 }
